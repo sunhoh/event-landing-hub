@@ -24,3 +24,33 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ─── /game 애니메이션 ─────────────────────────────────────────────────────── */
+
+@keyframes pop-in {
+  0%   { transform: scale(0.2) translateY(30%); opacity: 0; }
+  70%  { transform: scale(1.12) translateY(0); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+@keyframes burst {
+  0%   { transform: scale(1); opacity: 1; filter: brightness(1); }
+  40%  { transform: scale(1.35); opacity: 0.9; filter: brightness(1.8); }
+  100% { transform: scale(0.2); opacity: 0; }
+}
+
+@keyframes laser-ring {
+  0%   { transform: scale(0.3); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes float-up {
+  0%   { transform: translate(-50%, 0); opacity: 1; }
+  100% { transform: translate(-50%, -48px); opacity: 0; }
+}
+
+@keyframes count-pop {
+  0%   { transform: scale(1.8); opacity: 0; }
+  30%  { transform: scale(1); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0.9; }
+}
