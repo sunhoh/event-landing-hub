@@ -19,7 +19,7 @@ const DEFAULT_QR_SRC = "/qr.png";
 const THEMES = {
   autumn: { label: "가을", grass: ["#e8b84a", "#d9a23a", "#f0c95c"], leaves: ["#f2a65a", "#f7c55e", "#e98b4f", "#f4b870"] },
   summer: { label: "여름",   grass: ["#9cc46b", "#87b35a", "#b2d47f"], leaves: ["#f6b8c8", "#f9cdd8", "#ee9fb5", "#fde2e8"] },
-  rose:   { label: "로즈", grass: ["#d9a48c", "#c98f76", "#e8bba6"], leaves: ["#C5856A", "#e8b4a0", "#f3cdbd", "#b9765c"] },
+  // rose:   { label: "로즈", grass: ["#d9a48c", "#c98f76", "#e8bba6"], leaves: ["#C5856A", "#e8b4a0", "#f3cdbd", "#b9765c"] },
 } as const;
 type ThemeKey = keyof typeof THEMES;
 

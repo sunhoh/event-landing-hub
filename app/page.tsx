@@ -19,7 +19,8 @@ const ROUTES: EventRoute[] = [
   { href: "/slot",      emoji: "🎰", title: "수능 특가 슬롯머신",        desc: "버튼 누르기 → 3칸 회전 → 맞으면 당첨 (3회)", tag: "슬롯머신" },
   { href: "/countdown", emoji: "⏰", title: "수능 특가 카운트다운",      desc: "오픈·마감 타이머 + 특가 메뉴 + 하단 고정 CTA", tag: "카운트다운" },
   { href: "/game",      emoji: "⚡", title: "트러블 헌터 30초 챌린지",   desc: "30초 플레이 → 점수 → 등급별 쿠폰 → 도전장 공유", tag: "미니게임" },
-  { href: "/memory",    emoji: "🧠", title: "피부 짝꿍 찾기",            desc: "4→8→16→24→40장 단계별 카드 맞추기 → 등급 쿠폰", tag: "미니게임" },
+  { href: "/ticket",    emoji: "✈️", title: "Seoul Glow Ticket (강남)",  desc: "탑승권 발권 → 지구본 여정 → 착륙 후 지점 길안내 → 방문 스탬프", tag: "티켓·지구본" },
+  { href: "/memory",    emoji: "🧠", title: "코비 짝꿍 찾기",            desc: "4→8→16→24→40장 단계별 카드 맞추기 → 등급 쿠폰", tag: "미니게임" },
 ];
 
 export default function Home() {
